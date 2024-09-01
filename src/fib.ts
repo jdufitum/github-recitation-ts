@@ -1,7 +1,7 @@
 // util function that computes the fibonacci numbers
-module.exports = function fibonacci(n) {
+export function fibonacci(n: number): number {
   if (n < 0) {
-    return -1;
+    throw new Error("Input must be a non-negative integer");
   } else if (n == 0) {
     return 0;
   } else if (n == 1) {
@@ -9,4 +9,4 @@ module.exports = function fibonacci(n) {
   }
 
   return fibonacci(n - 1) + fibonacci(n - 2);
-};
+}

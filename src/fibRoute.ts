@@ -5,10 +5,6 @@ import { fibonacci } from "./fib";
 // import fib
 // export default function that takes in req, res
 // get num from req.params
-// calculate fib(num)
-// export default function that takes in req, res
-// get num from req.params
-// calculate fib(num)
 
 
 

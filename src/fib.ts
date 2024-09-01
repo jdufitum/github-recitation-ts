@@ -1,5 +1,4 @@
 // util function that computes the fibonacci numbers
-//Chat gpt was used to help understand the problems
 export function fibonacci(n: number): number {
   if (n < 0) {
       return -1;

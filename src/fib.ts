@@ -1,5 +1,6 @@
 // util function that computes the fibonacci numbers
-module.exports = function fibonacci(n) {
+//Chat gpt was used to help understand the problems
+module.exports = function fibonacci(n: number): number {
   if (n < 0) {
     return -1;
   } else if (n == 0) {
